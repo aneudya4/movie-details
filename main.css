@@ -92,3 +92,34 @@ header {
   align-self: center;
   margin-left: 60px;
 }
+footer {
+  color: black;
+}
+footer ul {
+  z-index: 1000;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  font-size: 40px;
+  color: black;
+}
+li a i.fa-linkedin {
+  color: #2867b2;
+}
+li a i.fa-linkedin:hover {
+  color: #123c6e;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+a,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(122, 121, 121);
+}
